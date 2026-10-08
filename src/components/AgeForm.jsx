@@ -34,7 +34,7 @@ export function AgeForm({
             id="birth-day"
             label="Jour"
             autoComplete="bday-day"
-            placeholder="15"
+            placeholder="20"
             maxLength={2}
             value={fields.day}
             invalid={error !== null}
@@ -56,7 +56,7 @@ export function AgeForm({
             id="birth-year"
             label="Année"
             autoComplete="bday-year"
-            placeholder="1998"
+            placeholder="2004"
             maxLength={4}
             value={fields.year}
             invalid={error !== null}
